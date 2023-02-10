@@ -1,1 +1,1 @@
-https://makcpokrovskiy.github.io/Antools/dist/
+https://makcpokrovskiy.github.io/antools/dist/
