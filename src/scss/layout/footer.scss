@@ -1,0 +1,320 @@
+.footer {
+
+  // padding: rem(20) 0;
+  // background: $blackColor;
+  // // .footer__container
+  // &__container {
+  //   display: flex;
+  //   align-items: center;
+  //   @include media(510) {
+  //     flex-direction: column;
+  //     align-items: flex-start;
+  //   }
+  // }
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1250px;
+    padding: 200px 15px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  .footer__line {
+    border: 0.5px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .footer__content {
+    display: flex;
+    padding-top: 70px;
+    // padding: 70px 110px 100px 110px;
+  }
+
+  .footer__logo {
+    display: flex;
+  }
+
+  .footer__logo-wrapper {
+    padding-right: 20px;
+    width: 30%;
+  }
+
+  .logo__img-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // .logo__img {}
+
+  .logo__text {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 5px 12px;
+  }
+
+  .footer__text {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    padding-top: 25px;
+  }
+
+  .footer__descr {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  .footer__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  // .info__contact {}
+
+  .contact__item {
+    padding-left: 60px;
+    padding-bottom: 15px;
+  }
+
+  .contact__link {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  .contact__link:hover {
+    color: #FF6E30;
+  }
+
+  // .info__categories {}
+
+  .categories__item {
+    padding-bottom: 15px;
+  }
+
+  .categories__link {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  .categories__link:hover {
+    color: #FF6E30;
+  }
+
+  // .info__company {}
+
+  .company__item {
+    padding-right: 60px;
+    padding-bottom: 15px;
+  }
+
+  .company__link {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  .company__link:hover {
+    color: #FF6E30;
+  }
+
+  .info__header {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 20px;
+  }
+}
+
+@media(max-width:1199px) {
+  .footer {
+
+    .footer__container {
+      max-width: 1160px;
+      padding: 160px 20px;
+    }
+
+    // .footer__line {}
+
+    // .footer__content {}
+
+    // .footer__logo-wrapper {}
+
+    // .footer__logo {}
+
+    // .logo {}
+
+    // .logo__img-wrapper {}
+
+    // .logo__img {}
+
+    // .logo__text {}
+
+    // .footer__text {}
+
+    // .footer__descr {}
+
+    .footer__info {
+      justify-content: space-between;
+    }
+
+    // .info {}
+
+    .info__contact {
+      padding-left: 15px;
+    }
+
+    // .contact__item {}
+
+    // .info__header {}
+
+    // .contact__link {}
+
+    // .info__categories {}
+
+    // .categories__item {}
+
+    // .categories__link {}
+
+    // .info__company {}
+
+    // .company__item {}
+
+    // .company__link {}
+  }
+}
+
+@media(max-width:991px) {
+  .footer {
+
+    .footer__container {
+      max-width: 960px;
+      padding: 30px 15px;
+    }
+
+    // .footer__line {}
+
+    // .footer__content {}
+
+    .footer__logo-wrapper {
+      padding: 0;
+
+    }
+
+    // .footer__logo {}
+
+    // .logo {}
+
+    // .logo__img-wrapper {}
+
+    // .logo__img {}
+
+    // .logo__text {}
+
+    // .footer__text {}
+
+    // .footer__descr {}
+
+    // .footer__info {}
+
+    // .info {}
+
+    .info__contact {
+      padding: 5px 0;
+    }
+
+    .contact__item {
+      padding-left: 10px;
+    }
+
+    // .info__header {}
+
+    // .contact__link {}
+
+    // .info__categories {}
+
+    // .categories__item {}
+
+    // .categories__link {}
+
+    // .info__company {}
+
+    .company__item {
+      padding-right: 10px;
+    }
+
+    // .company__link {}
+  }
+}
+
+@media(max-width:767px) {
+  .footer {
+
+    .footer__container {
+      padding: 25px 15px;
+    }
+
+    // .footer__line {}
+
+    .footer__content {
+      padding-top: 25px;
+    }
+
+    .footer__logo-wrapper {
+      width: 60%;
+      padding-right: 20px;
+    }
+
+
+
+    .info__categories {
+      display: none;
+    }
+
+
+  }
+}
+
+@media(max-width:580px) {
+  .footer {
+    .info__company {
+      display: none;
+    }
+
+    .info__contact {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media(max-width:480px) {
+  .footer {
+    .contact__item {
+      font-size: 10px;
+      padding: 0 0 10px 0;
+    }
+
+    .footer__descr {
+      padding-top: 10px;
+      font-size: 10px;
+    }
+
+    .info__contact {
+      padding-top: 10px;
+    }
+
+    .info__header {
+      font-size: 14px;
+    }
+  }
+}
